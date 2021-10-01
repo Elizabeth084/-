@@ -1,9 +1,9 @@
-a = int(input('Введите число\n'))
-b = int(input('Введите число\n'))
-c = int(input('Введите число\n'))
-if a >= c <= b:
-    print('Наименьшее число','',c)
-elif c >= a <= b:
-    print('Наименьшее число','',a)
-else:
-    print('Наименьшее число','',b)
+
+def w():
+    print("Введите входные данные 3 числа")
+    x=int(input())
+    y=int(input())
+    z=int(input())
+    print("ответ:")
+    return min (x,y,z)
+print(w())
