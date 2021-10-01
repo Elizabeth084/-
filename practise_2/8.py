@@ -1,13 +1,13 @@
-q=int(input('Введите число \n'))
-w=int(input('Введите число \n'))
-e=int(input('Введите число \n'))
-if q == w == e:
-    print('Совпадений','',3)
-elif q == w or w == e or q == e:
-    print('Совпадений','',2)
-else:
-    print('Совпадений','',0)
-
-
-
-
+def N():
+    print("Введите входные данные 3 числа")
+    x=int(input())
+    y=int(input())
+    z=int(input())
+    print("ответ:")
+    if(x==y==z):
+        return 3
+    elif(x==y or z==y or x==z):
+        return 2
+    else:
+        return 0
+print(N())
