@@ -1,11 +1,11 @@
-n=int(input('Введите количество долек по ширине\n'))
-m=int(input('Введите количество долек по длине\n'))
-k=int(input('Введите количество долек\n'))
-s=n*m
-if k<=s:
-  if k==m or k==n :
-    print('да')
-  else:
-    print('нет')
-else:
-    print('нет')
+def N():
+    print("Введите входные данные 3 числа")
+    n=int(input())
+    m=int(input())
+    k=int(input())
+    print("ответ:")
+    if(n*m >k and (k %m ==0 or k%n==0)):
+        return "да"
+    else:
+        return "нет"
+print(N())          
