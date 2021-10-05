@@ -1,3 +1,4 @@
+# --coding: utf-8 --
 def N():
     print("Введите входные данные 1 число")
     year=int(input("год -"))
