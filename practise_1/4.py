@@ -1,4 +1,4 @@
-# — coding: utf-8 —
+# --coding: utf-8 --
 p=int(input('Введите количество секунд\n'))
 d=p//86400
 q=p%3600
