@@ -1,3 +1,4 @@
+# — coding: utf-8 —
 x = {'иван','Иван','ivan','Ivan'}
 user_name=''
 while len(user_name.strip())<1:
